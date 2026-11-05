@@ -1,0 +1,18 @@
+Command: python validate_lab19.py
+PASS COST: all ratios; Buffett 3/3, Graham 2/3, Burry 2/2
+PASS threshold probe: editing Graham skill to 1.0 produces 3/3; retained skill remains 2.0
+PASS AMD: Buffett 2/3, Graham 3/3, Burry 1/2 with leverage not known; JPM gaps preserved
+PASS app: COST/AMD panels, three verdicts and memos, flags in each memo, Lab 18 mode
+
+Exit code: 0
+Runtime diagnostics:
+2026-11-05 13:58:43.801 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+
+
+Command: python validate_lab18.py --live
+PASS: annual periods, latest comparative filing, 10-K-only filter, tag fallback, missing inputs, nonpositive equity, numeric flags
+PASS: all COST benchmark values/checks; JPM missing data; both memos; Streamlit COST/JPM and hand-typed 40.0% flag
+
+Exit code: 0
+Runtime diagnostics:
+2026-11-05 13:58:54.085 WARNING streamlit.runtime.scriptrunner_utils.script_run_context: Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.

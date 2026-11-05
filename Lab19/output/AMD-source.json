@@ -1,0 +1,7 @@
+{
+  "ticker": "AMD",
+  "cik": 2488,
+  "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json",
+  "downloaded_utc": "2026-11-05T18:51:31.349554+00:00",
+  "sha256": "1d4694bdd8dec2c3295ba5d645feba5eb984045111a0d911cb6d8c8b6039bafb"
+}

@@ -1,0 +1,1 @@
+**Proposed Project 2 decision:** Only with a condition: use the panel to prioritize research, retain missing checks as not known, and resolve AMD's liabilities gap and investigate its inconsistent ROE before allowing the screen to influence portfolio holdings; do not treat a majority of passes as a buy signal.
